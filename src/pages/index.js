@@ -1,8 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Header from "../components/header";
 
 const IndexPage = () => (
     <div>
+        <Header/>
         <div className="Hero">
             <div className="HeroGroup">
                 <h1>Learn to design and code react apps</h1>
